@@ -1,0 +1,15 @@
+{
+  "name": "redusers",
+  "version": "1.0.0",
+  "description": "Publisher - produces messages at a rate of 20 per second. The messages are randomly chosen integers.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Brad Traversy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "redis": "^2.7.1"
+  }
+}

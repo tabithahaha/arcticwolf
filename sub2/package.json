@@ -1,0 +1,16 @@
+{
+  "name": "sub2",
+  "version": "1.0.0",
+  "description": "Subscriber 2 - computes and outputs median of the integers that it receives in 5 second windows",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
