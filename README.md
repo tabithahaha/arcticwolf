@@ -1,7 +1,9 @@
 # Take Home Test from Arctic Wolf Networks
 
 Publisher produces messages at a rate of 20 per second. The messages are randomly chosen integers between -100 and 100.
+
 Subscriber 1 computes and outputs sums of the integers that it receives in 5 second windows.
+
 Subscriber 2 computes and outputs median of the integers that it receives in 5 second windows.
 
 ## Usage
