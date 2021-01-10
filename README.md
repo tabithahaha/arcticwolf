@@ -8,7 +8,7 @@ Subscriber 2 computes and outputs median of the integers that it receives in 5 s
 
 ## Usage
 
-Make sure you have Redis installed and running
+Make sure you have Redis installed and running (see https://redis.io/topics/quickstart for details)
 
 Open 3 terminals for at each directory `pub/`, `sub1/` and `sub2/`
 
