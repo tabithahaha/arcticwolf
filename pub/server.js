@@ -18,7 +18,7 @@ setInterval(() => {
 
   publisher.publish("tabi-channel", int);
   console.log('Published ' + int);
-}, 300); // 20 per second (6000/20)
+}, 50); // 20 per second (1000/20)
 /*--------------------- END ---------------------*/
 
 
