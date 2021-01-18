@@ -15,13 +15,13 @@ subscriber.on("message", (channel, message) => {
 	array[index] = parseInt(message);
 	index = (index == 99) ? 0 : index + 1;
 
-	console.log("Median: " + array.reduce((a, b) => {
-		// first sort then take the center numbers and divide by 2
-		// https://www.w3resource.com/javascript-exercises/fundamental/javascript-fundamental-exercise-88.php
-		const mid = Math.floor(array.length / 2);
-		nums = [...array].sort((a, b) => a - b);
-		return array.length % 2 !== 0 ? nums[mid] : (nums[mid - 1] + nums[mid]) / 2;
-	}));
+	// first sort then take the center numbers and divide by 2
+	// https://www.w3resource.com/javascript-exercises/fundamental/javascript-fundamental-exercise-88.php
+	const mid = Math.floor(array.length / 2);
+	nums = [...array].sort((a, b) => a - b);
+	const midian = array.length % 2 !== 0 ? nums[mid] : (nums[mid - 1] + nums[mid]) / 2;
+
+	console.log("Median: " + midian);
 });
 
 subscriber.subscribe("tabi-channel");

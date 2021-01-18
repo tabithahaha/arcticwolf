@@ -7,7 +7,7 @@
     "start": "node server"
   },
   "keywords": [],
-  "author": "",
+  "author": "tabi",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

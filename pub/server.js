@@ -1,3 +1,4 @@
+// reference: https://github.com/bradtraversy/redusers
 const express = require('express');
 const redis = require('redis');
 
